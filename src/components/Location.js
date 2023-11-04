@@ -14,10 +14,10 @@ const Location = () => {
     return (
         <div className='alert alert-secondary'>Location {
             <select name="Location" id="Location" onChange={event => changeLocation(event.target.value)}>
-                <option value="a">UK(a)</option>
-                <option value="a">India(a)</option>
-                <option value="a">Europe(a)</option>
-                <option value="a">Canada(a)</option>
+                <option value="£">UK(£)</option>
+                <option value="₹">India(₹)</option>
+                <option value="€">Europe(€)</option>
+                <option value="CAD">Canada(CAD)</option>
             </select>
         }
         </div>

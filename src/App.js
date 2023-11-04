@@ -24,7 +24,7 @@ const App = () => {
                     <div className='col-sm'>
                        <ExpenseList />
                     </div>
-                </div>*/
+                </div>
                 <h3 className='mt-3'>Add items</h3>
                 <div className='row mt-3'>
                     <div className='col-sm'>
